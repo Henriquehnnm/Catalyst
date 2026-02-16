@@ -1,0 +1,24 @@
+{
+  "test_run": "build-2024-02-15",
+  "timestamp": "2024-02-15T14:30:00",
+  "results": [
+    {
+      "name": "test_login",
+      "status": "PASSED",
+      "time": 1.2,
+      "suite": "auth"
+    },
+    {
+      "name": "test_checkout",
+      "status": "FAIL",
+      "time": "2500ms",
+      "error": "Timeout exceeded",
+      "suite": "payments"
+    },
+    {
+      "name": "test_signup",
+      "status": "skip",
+      "suite": "auth"
+    }
+  ]
+}
