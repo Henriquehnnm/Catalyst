@@ -1,0 +1,8 @@
+Nome,Nota,Status,Data
+João Silva,8.5,aprovado,2024-01-15
+Maria,SETE,Aprovado,15/01/2024
+,9.0,aprovado,2024-01-16
+Pedro Santos,6.5,,2024-01-17
+Ana Costa,10,aprovada,invalid-date
+Lucas,4.5,reprovado,2024-01-18
+Carla Souza,NaN,aprovado,2024-01-19

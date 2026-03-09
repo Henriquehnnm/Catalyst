@@ -3,11 +3,14 @@ name = "catalyst"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Henriquehnnm",email = "henriquesardinha987@gmail.com"}
+    {name = "Henriquehnnm",email = "hello.henrique@proton.me"}
 ]
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.13"
 dependencies = [
+    "rich (>=14.3.3,<15.0.0)",
+    "fire (>=0.7.1,<0.8.0)",
+    "pandas (>=3.0.1,<4.0.0)"
 ]
 
 [tool.poetry]

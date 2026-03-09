@@ -1,5 +1,9 @@
+from utils.extractors import reader
+
+
 def main():
-    print("Hello World!")
+    reader.reader()
+
 
 if __name__ == "__main__":
     main()
