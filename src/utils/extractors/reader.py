@@ -2,7 +2,7 @@ import pandas as pd
 
 
 def reader() -> pd.DataFrame:
-    df = pd.read_csv("test_data.csv")
+    df = pd.read_csv("test_data2.csv")
 
     # Padronizar Status
     df["Status"] = (
