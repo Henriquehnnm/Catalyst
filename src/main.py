@@ -1,9 +1,11 @@
-from utils.extractors import reader
+from utils.extractors.reader import reader
+from utils.loaders.writer import writer
 
 
 def main():
-    data = reader.reader()
+    data = reader()
     print(data)
+    writer(data, "./output.csv")
 
 
 if __name__ == "__main__":
