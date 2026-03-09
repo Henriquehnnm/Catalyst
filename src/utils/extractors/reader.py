@@ -10,7 +10,7 @@ def reader() -> pd.DataFrame:
     )
 
     # Padronizar Nota
-    df["Nota"] = pd.to_numeric(df["Nota"], errors="coerce")
+    df["Nota"] = pd.to_numeric(df["Nota"], errors="coerce").astype("float64")
 
     # Data (cansei de escrever padronizar antes de cada comentario)
     df["Data"] = pd.to_datetime(df["Data"], errors="coerce", dayfirst=True)

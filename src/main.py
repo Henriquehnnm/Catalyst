@@ -2,7 +2,8 @@ from utils.extractors import reader
 
 
 def main():
-    reader.reader()
+    data = reader.reader()
+    print(data)
 
 
 if __name__ == "__main__":
